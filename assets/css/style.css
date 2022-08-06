@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/palace_1_Unity-Palace-Yaounde-Cameroon_2_670.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+/* ************************** end of general styles ************************ */
+.header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #99C2EC;
+}
+.div_logo{
+    display: flex;
+    align-items: center;
+}
+.election_description{
+   margin: 0px 0px 0px 20px;
+}
+.div_login{
+    margin: 0px 20px 0px 0px;
+    border-left: 2px solid gray;
+    height: 118px;
+}
+.div_login a .login{
+    padding: 30px 8px 0px 24px;
+}
