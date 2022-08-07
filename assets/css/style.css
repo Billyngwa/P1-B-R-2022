@@ -55,9 +55,18 @@ body{
     background-color:rgb(191, 209, 216);
 }
 .form_div{
-    float: center;
+    width: 50%;
     background-color:aliceblue;
+    margin: 0px 0px 0px 270px;
 }
+input[type="text"], input[type="password"], input[type="radio"], input[type="email"S]{
+    border:transparent;
+    border-bottom: 1px solid lightgray;
+}
+/* .form_div form .title{
+    border:transparent;
+    border-bottom: 1px solid lightgray;
+} */
 /* form{
     display: flex;
     flex-direction: column;
