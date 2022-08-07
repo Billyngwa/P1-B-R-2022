@@ -19,6 +19,7 @@ body{
     background-image: url("../images/palace_1_Unity-Palace-Yaounde-Cameroon_2_670.jpg");
     background-size:cover;
     background-repeat: no-repeat;
+    
 }
 /* ************************** end of general styles ************************ */
 .logo_nav{
@@ -26,6 +27,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #99C2EC;
+    /* position: fixed; */
 }
 .div_logo{
     display: flex;
@@ -50,27 +52,48 @@ body{
     background-color: aliceblue;
    
 }
-/* **************************** end of header styles **************************** */
+/* ****************************end of header styles**************************** */
 .main_section{
     background-color:rgb(191, 209, 216);
+    /* background-color: transparent; */
 }
 .form_div{
-    width: 50%;
+    width: 60%;
     background-color:aliceblue;
-    margin: 0px 0px 0px 270px;
+    margin: 100px 0px 0px 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-input[type="text"], input[type="password"], input[type="radio"], input[type="email"S]{
+input[type="text"],input[type="password"],input[type="email"]{
     border:transparent;
     border-bottom: 1px solid lightgray;
+    outline: none;
+    width:75%;
+    margin: 40px 0px 0px 60px;
+    font-size: 20px;
 }
-/* .form_div form .title{
-    border:transparent;
-    border-bottom: 1px solid lightgray;
-} */
-/* form{
-    display: flex;
-    flex-direction: column;
-} */
+input[type="email"]:hover, input[type="email"]:focus, 
+input[type="text"]:hover, input[type="text"]:focus,
+input[type="password"]:hover, input[type="password"]:focus 
+{
+    border-bottom: 1px solid navy;
+}
+.signup_label, .signup_warning, .gender_title{
+    margin: 20px 0px 0px 60px;
+}
+.signup_btn{
+    position: relative;
+    top: 3px;
+    left: 390px;
+    background-color: rgb(32, 117, 177);
+    font-size: 25px;
+    color: aliceblue;
+    margin: 30px 0px 50px 0px;
+    padding: 10px;
+    border:rgb(32, 117, 177); ;
+    border-radius: 5px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.15);;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 footer{
     background-color: aliceblue;
 }
