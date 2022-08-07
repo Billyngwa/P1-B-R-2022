@@ -12,39 +12,59 @@
 <body>
     <header>
         <section class="header_logo">
-            <div class="div_logo">
-                <img src="../assets/images/logo_blue.png" alt="Election insights">
-                <p class="election_description">
-                    <span style="color:navy;">ELECTOR VOTING SYSTEM</span> <br>
-                    Elector Registration Application
-                </p>
-            </div>
-            <div class="div_login">
-                <a href="#">
-                    <p class="login">
-                        <i class="fa-solid  fa-circle-user icon-4x pull-left icon-border">log In</i> 
+            <nav class="logo_nav">
+                <div class="div_logo">
+                    <img src="../assets/images/logo_blue.png" alt="Election insights">
+                    <p class="election_description">
+                        <span style="color:navy;">ELECTOR VOTING SYSTEM</span> <br>
+                        Elector Registration Application
                     </p>
-                   <p class="title">
+                </div>
+                <div class="div_login">
+                    <a href="#">
+                        <p class="login">
+                            <i class="fa-solid  fa-circle-user">log In</i> 
+                        </p>
+                    </a> 
+                </div>
+            </nav>
+            <p class="evs">
+                <span>ELECTOR VOTING SYSTEM</span>
+            </p>
+        </section>
+    </header>
+    <main>
+        <section class="main_section">
+            <div class="form_div">
+                 <label for="Sign Up">Sign Up</label>
+                 <p>
+                    <small>"Warning:If you forget your login credentials, please do not create another profile. Contact <br>
+                        <a href="mailto:billytatangwa5@gmail.com">electorvotingsystem@admin.cm</a>
+                        to retrieve your credentials "
+                    </small>
+                 </p>
+                <form action="../index.html">
+                    <p class="title">
                         <label for="First Name">First Name</label>
                         <input type="text" name="First Name" required="required" />
-                   </p>
-                   <p class="title">
+                    </p>
+                    <p class="title">
                         <label for="Last Name">Last Name</label>
                         <input type="text" name="Last Name" required="required" />
-                   </p>
-                   <p class="title">
+                    </p>
+                    <p class="title">
                         <label for="password">password</label>
                         <input type="password" name="password" required="required" />
-                   </p>
-                   <p class="title">
+                    </p>
+                    <p class="title">
                         <label for="confirm password">confirm password</label>
                         <input type="password" name="confirm password" required="required" />
-                   </p>
-                   <p class="title">
+                    </p>
+                    <p class="title">
                         <label for="email">email</label>
                         <input type="email" name="email" required="required" />
-                   </p>
-                   <p class="title">
+                    </p>
+                    <p class="title">
                         <label for="Gender">Gender:</label>
                         <input type="radio" name="Gender" value="Male" checked="checked" /> Male
                         <input type="radio" name="Gender" value="Female" /> Female
@@ -53,5 +73,6 @@
                 </form>
             </div>
         </section>
-    </header>
+    </main>
 </body>
+</html>
