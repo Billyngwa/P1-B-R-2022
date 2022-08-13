@@ -54,8 +54,8 @@ body{
 }
 /* ****************************end of header styles**************************** */
 .main_section{
-    background-color:rgb(191, 209, 216);
-    /* background-color: transparent; */
+    /* background-color:rgb(191, 209, 216); */
+    background-color: transparent;
 }
 .form_div{
     width: 60%;

@@ -1,19 +1,32 @@
 li a{
     text-decoration: none;
 
-}
-a:hover{
 
 }
-a:focus{
-    
-}
-a:active{
-    
-}
 .nav_list .list_item a{
+    color:#008900;
+}
+.nav_list .list_item a:hover{
+    text-decoration: underline;
+   background-color:#ff0080;
+   color: white;
+   padding: 20px;
+   border-radius: 5px;
+}
+.nav_list .list_item a:focus{
+    
+}
+.nav_list .list_item a:active{
+    
+}
+.nav_list .list_item a:visited{
+    /* color:green; */
+}
+.nav_list{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+}
+.nav_list .list_item{
+    margin: 0px 15px 0px 0px;
 }
